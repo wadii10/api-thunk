@@ -2,11 +2,17 @@
   text-align: center;
 }
 
-.countries-list {
+.countries-list,
+.leagues-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0.5rem;
+}
+
+.country-item,
+.league-item {
+  padding: 00.5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,9 +21,6 @@
   }
 }
 
-.country-item {
-  padding: 00.5rem;
-}
 
 .App-link {
   color: #61dafb;
