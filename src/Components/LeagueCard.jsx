@@ -14,6 +14,7 @@ const LeagueCard = ({ league }) => {
 
                     </Card.Text>
                     <Link to="/" > <Button variant="primary"  > Back </Button>  </Link>
+                    <Link to={`/standings/${league.country_id}/${league.league_id}`} > <Button variant="primary"  > Standings </Button>  </Link>
                 </Card.Body>
             </Card>
 
